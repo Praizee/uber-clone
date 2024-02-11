@@ -9,8 +9,12 @@ import FoodScreen from "./screens/FoodScreen";
 
 export default function App() {
   const Stack = createStackNavigator();
+  // developers.google.com/maps/documentation/places/web-service/get-api-key/
+  // 4:40:00 (Got stuck - Uber, cause couldn't add card to use Google Cloud API...error on google cloud platform)
+  // https://developers.google.com/maps/documentation/places/web-service/get-api-key/
+  // https://console.cloud.google.com/apis/library/directions-backend.googleapis.com?organizationId=0&project=uber-clone-app-414016
 
-  return (
+  https: return (
     <Provider store={store}>
       <NavigationContainer>
         <SafeAreaProvider>
